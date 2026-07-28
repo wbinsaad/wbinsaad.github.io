@@ -1,0 +1,17 @@
+{
+  "name": "Waleed Binsaad — Software Engineer",
+  "short_name": "Waleed Binsaad",
+  "description": "Portfolio of Waleed Binsaad, a Melbourne-based software engineer.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f5f2ea",
+  "theme_color": "#f5f2ea",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

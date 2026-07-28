@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">WB monogram</title>
+  <rect width="64" height="64" fill="#17202a"/>
+  <path fill="#f5f2ea" d="M11 17h8l5 21 5-21h7l5 21 5-21h8L45 48h-8l-5-19-5 19h-8L11 17Z"/>
+</svg>
