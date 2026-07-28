@@ -109,9 +109,9 @@ h4 {
 }
 
 h1 {
-  max-width: 13ch;
-  margin-bottom: var(--space-5);
-  font-size: var(--step-4);
+  max-width: 17ch;
+  margin-bottom: var(--space-4);
+  font-size: clamp(2.75rem, 2rem + 2.6vw, 4.1rem);
   font-weight: 760;
 }
 
@@ -220,12 +220,12 @@ h4 {
 }
 
 .hero {
-  padding: clamp(4.5rem, 10vw, 8.5rem) 0 clamp(4rem, 8vw, 7rem);
+  padding: clamp(1.25rem, 2.5vw, 2.25rem) 0 clamp(2.5rem, 4vw, 3.75rem);
 }
 
 .hero-grid {
   display: grid;
-  gap: var(--space-7);
+  gap: var(--space-6);
 }
 
 .eyebrow,
@@ -300,7 +300,6 @@ h4 {
   display: flex;
   align-items: flex-start;
   gap: 0.65rem;
-  max-width: 54ch;
   margin: var(--space-5) 0 0;
   color: var(--colour-muted);
   font-size: var(--step--1);
