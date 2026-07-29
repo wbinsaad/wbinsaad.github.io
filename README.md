@@ -6,7 +6,6 @@
 - Modern CSS with custom properties
 - No JavaScript requirement
 - No framework, package manager or build step
-- No analytics or third-party runtime requests
 - GitHub Pages branch deployment from the repository root
 
 This architecture is intentional: the site is small, content-led and compatible with GitHub Pages without a custom workflow.
