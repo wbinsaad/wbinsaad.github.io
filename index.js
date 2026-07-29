@@ -43,9 +43,13 @@
         }
       }
 
-      if (typeof window.gtag === "function") {
-        window.gtag("event", eventName, parameters);
-      }
+      window.dataLayer = window.dataLayer || [];
+
+      window.dataLayer.push({
+        event: "portfolio_interaction",
+        analytics_event_name: eventName,
+        ...parameters
+      });
 
       if (typeof window.clarity === "function") {
         window.clarity("event", eventName);
